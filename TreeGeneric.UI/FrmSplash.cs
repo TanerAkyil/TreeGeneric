@@ -19,7 +19,7 @@ namespace TreeGeneric.UI
 
         private void FrmSplash_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Proje");
         }
     }
 }
