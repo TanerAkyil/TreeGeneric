@@ -64,9 +64,9 @@
             this.toolStripButton2,
             this.toolStripButton3,
             this.toolStripButton4});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(661, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(496, 27);
             this.toolStrip1.TabIndex = 12;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -78,6 +78,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton1.Text = "toolStripButton1";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripButton2
             // 
@@ -87,6 +88,7 @@
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton2.Text = "toolStripButton2";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripButton3
             // 
@@ -96,6 +98,7 @@
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton3.Text = "toolStripButton3";
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // toolStripButton4
             // 
@@ -105,24 +108,23 @@
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton4.Text = "toolStripButton4";
+            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // pnlDikim
             // 
             this.pnlDikim.Controls.Add(this.label3);
             this.pnlDikim.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlDikim.Location = new System.Drawing.Point(0, 0);
-            this.pnlDikim.Margin = new System.Windows.Forms.Padding(4);
             this.pnlDikim.Name = "pnlDikim";
-            this.pnlDikim.Size = new System.Drawing.Size(661, 592);
+            this.pnlDikim.Size = new System.Drawing.Size(496, 481);
             this.pnlDikim.TabIndex = 15;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(83, 54);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(62, 44);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 17);
+            this.label3.Size = new System.Drawing.Size(64, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Dikim paneli";
             // 
@@ -131,18 +133,16 @@
             this.pnlUser.Controls.Add(this.label2);
             this.pnlUser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlUser.Location = new System.Drawing.Point(0, 0);
-            this.pnlUser.Margin = new System.Windows.Forms.Padding(4);
             this.pnlUser.Name = "pnlUser";
-            this.pnlUser.Size = new System.Drawing.Size(661, 592);
+            this.pnlUser.Size = new System.Drawing.Size(496, 481);
             this.pnlUser.TabIndex = 16;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(91, 54);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(68, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 17);
+            this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Kullanıcı paneli";
             // 
@@ -152,19 +152,17 @@
             this.pnlHome.Controls.Add(this.pictureBox2);
             this.pnlHome.Controls.Add(this.pictureBox1);
             this.pnlHome.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlHome.Location = new System.Drawing.Point(0, 28);
-            this.pnlHome.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlHome.Location = new System.Drawing.Point(0, 24);
             this.pnlHome.Name = "pnlHome";
-            this.pnlHome.Size = new System.Drawing.Size(661, 564);
+            this.pnlHome.Size = new System.Drawing.Size(496, 457);
             this.pnlHome.TabIndex = 13;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(4, 295);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 240);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(632, 277);
+            this.pictureBox2.Size = new System.Drawing.Size(474, 225);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -172,10 +170,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(4, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(632, 294);
+            this.pictureBox1.Size = new System.Drawing.Size(474, 239);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -187,8 +184,7 @@
             this.bölgelerToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(661, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(496, 24);
             this.menuStrip1.TabIndex = 17;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -197,48 +193,49 @@
             this.bölgelerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bölgelerToolStripMenuItem1});
             this.bölgelerToolStripMenuItem.Name = "bölgelerToolStripMenuItem";
-            this.bölgelerToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
+            this.bölgelerToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.bölgelerToolStripMenuItem.Text = "Ayarlar";
             // 
             // bölgelerToolStripMenuItem1
             // 
             this.bölgelerToolStripMenuItem1.Name = "bölgelerToolStripMenuItem1";
-            this.bölgelerToolStripMenuItem1.Size = new System.Drawing.Size(216, 26);
+            this.bölgelerToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.bölgelerToolStripMenuItem1.Text = "Bölgeler";
+            this.bölgelerToolStripMenuItem1.Click += new System.EventHandler(this.bölgelerToolStripMenuItem1_Click);
             // 
             // pnlDonate
             // 
             this.pnlDonate.Controls.Add(this.label1);
             this.pnlDonate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlDonate.Location = new System.Drawing.Point(0, 0);
-            this.pnlDonate.Margin = new System.Windows.Forms.Padding(4);
             this.pnlDonate.Name = "pnlDonate";
-            this.pnlDonate.Size = new System.Drawing.Size(661, 592);
+            this.pnlDonate.Size = new System.Drawing.Size(496, 481);
             this.pnlDonate.TabIndex = 14;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(115, 90);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(86, 73);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 17);
+            this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bağış paneli";
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(661, 592);
+            this.ClientSize = new System.Drawing.Size(496, 481);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pnlDonate);
             this.Controls.Add(this.pnlDikim);
             this.Controls.Add(this.pnlUser);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmMain";
             this.Text = "FrmMain";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.pnlDikim.ResumeLayout(false);
